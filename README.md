@@ -5,7 +5,7 @@
 
 ---
 
-## 🌟 Features
+## Features
 
 - **Real-Time Monitoring**: Measure heart rate and HRV in real-time.
 - **Stress and Recovery Insights**: Analyze autonomic nervous system activity using HRV data.
@@ -15,7 +15,7 @@
 
 ---
 
-## 🔧 Technical Specifications
+## Technical Specifications
 
 - **Microcontroller**: Raspberry Pi Pico W
 - **Heart Rate Sensor**: Crowtail Pulse Sensor v2.0
@@ -25,7 +25,7 @@
 
 ---
 
-## 📦 Components
+## Components
 
 1. **Raspberry Pi Pico W**
 2. **Crowtail Pulse Sensor v2.0**
@@ -36,7 +36,7 @@
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -62,7 +62,7 @@
 
 ---
 
-## 🛠 Usage
+## Usage
 
 1. **Power On**: Connect the device to a power source. A green LED indicates it is active.
 2. **Navigate Menu**:
@@ -76,7 +76,7 @@
 
 ---
 
-## ⚙️ Troubleshooting
+## Troubleshooting
 
 - **Connectivity Issues**:
   - Ensure Wi-Fi credentials are correct and the network is within range.
@@ -87,14 +87,14 @@
 
 ---
 
-## 📖 Documentation
+## Documentation
 
 - [User Manual](./User_Manual.pdf)
 - [Project Report](./Project_Report.pdf)
 
 ---
 
-## ✨ Future Enhancements
+## Future Enhancements
 
 - Add more HRV calculations (SD1, SD2, SDSD).
 - Implement machine learning for health trend analysis.
@@ -102,7 +102,7 @@
 
 ---
 
-## 🤝 Contributors
+## Contributors
 
 - **Ade Aiho**
 - **Topias Aho**
