@@ -1,17 +1,19 @@
 
 # Cardio Pulse PRO
 
-**Cardio Pulse PRO** is a heart rate detection and analysis device developed as a first-year hardware project at Metropolia University of Applied Sciences. It measures heart rate variability (HRV) using photoplethysmography (PPG) and provides insights into stress and recovery levels.
+**Cardio Pulse PRO** is a heart rate (HR) and heart rate variability (HRV) monitoring device built with a Raspberry Pi Pico W and a Crowtail PPG pulse sensor. It detects peaks from a live PPG signal, calculates HR and HRV metrics locally, and sends interval data to Kubios Cloud for advanced analysis. The device includes an OLED display and rotary encoder for simple navigation, and shows both real-time and historical measurements.
 
 ---
 
 ## Features
 
-- **Real-Time Monitoring**: Measure heart rate and HRV in real-time.
-- **Stress and Recovery Insights**: Analyze autonomic nervous system activity using HRV data.
-- **Wi-Fi Connectivity**: Seamlessly integrate with Kubios Cloud for advanced HRV analysis.
-- **User-Friendly Interface**: Rotary encoder navigation and OLED display.
-- **Data Storage**: Locally store and access measurement history.
+- Real-time heart rate measurement
+- Local HRV analysis
+- Kubios Cloud integration for advanced HRV metrics
+- Live PPG waveform drawing on OLED screen
+- Measurement history stored locally on the Pico
+- Menu navigation with a rotary encoder
+- LED peak indicator for visual feedback
 
 ---
 
@@ -21,7 +23,8 @@
 - **Heart Rate Sensor**: Crowtail Pulse Sensor v2.0
 - **Display**: SSD1306-compatible OLED (128x64 pixels)
 - **Interface**: Rotary encoder with push-button
-- **Connectivity**: Wi-Fi for cloud integration and USB for power and data transfer
+- **Connectivity**: Wi-Fi
+- **Language**: MicroPython
 
 ---
 
@@ -62,43 +65,10 @@
 
 ---
 
-## Usage
-
-1. **Power On**: Connect the device to a power source. A green LED indicates it is active.
-2. **Navigate Menu**:
-   - Use the rotary encoder to scroll and select options on the OLED display.
-3. **Start Measurements**:
-   - Select "Start Measurement" to begin. Place your finger on the sensor as instructed.
-4. **View Results**:
-   - Analyze HR, HRV, stress, and recovery metrics on-screen or via Kubios Cloud integration.
-5. **Save History**:
-   - Measurement results are saved locally for later access.
-
----
-
-## Troubleshooting
-
-- **Connectivity Issues**:
-  - Ensure Wi-Fi credentials are correct and the network is within range.
-- **Inaccurate Readings**:
-  - Maintain steady contact with the sensor and minimize movement.
-- **Power Issues**:
-  - Check USB connections and ensure the power source meets voltage requirements.
-
----
-
 ## Documentation
 
 - [User Manual](./User_Manual.pdf)
 - [Project Report](./Project_Report.pdf)
-
----
-
-## Future Enhancements
-
-- Add more HRV calculations (SD1, SD2, SDSD).
-- Implement machine learning for health trend analysis.
-- Develop a wearable version for continuous monitoring.
 
 ---
 
