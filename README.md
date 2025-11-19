@@ -28,43 +28,6 @@
 
 ---
 
-## Components
-
-1. **Raspberry Pi Pico W**
-2. **Crowtail Pulse Sensor v2.0**
-3. **SSD1306 OLED Display**
-4. **Rotary Encoder**
-5. **Protoboard with Grove Connectors**
-6. **USB-C Cable**
-
----
-
-## Getting Started
-
-### Prerequisites
-
-- [Thonny IDE](https://thonny.org)
-- MicroPython Firmware for Raspberry Pi Pico W
-
-### Setup
-
-1. **Assemble Hardware**:
-   - Connect the OLED display and pulse sensor to the Raspberry Pi Pico W using Grove connectors.
-   - Connect the device to a power source via USB.
-
-2. **Install Software**:
-   - Load the MicroPython firmware onto the Raspberry Pi Pico W.
-   - Clone or download the repository.
-
-3. **Configure Wi-Fi**:
-   - Edit the `connect_to_wlan.py` file to include your Wi-Fi credentials.
-   - Run the script to connect the device to your network.
-
-4. **Run the Application**:
-   - Open the main program in Thonny and execute it on the connected Raspberry Pi Pico W.
-
----
-
 ## Documentation
 
 - [User Manual](./User_Manual.pdf)
